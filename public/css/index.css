@@ -1,0 +1,21 @@
+body {
+  background: url("../images/lightpaperfibers.png") repeat 0 0;
+  margin: 2% 0 0 5%;
+}
+
+h1 {
+  margin-left: 25%;
+  font-family: 'Corben', Georgia, Times, serif;
+}
+
+p, div {
+  font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+
+.quotes {
+  text-shadow: 1px 1px 1px grey;
+}
+
+.extra {
+  margin-left: 5%;
+}
