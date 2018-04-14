@@ -2,7 +2,7 @@ const express = require('express');
 
 const app = express();
 
-const port = 'https://git.heroku.com/infinite-dusk-10370.git';
+const port = process.env.PORT || 8000;
 
 app.set('view engine', 'pug');
 app.use(express.static('public'));
